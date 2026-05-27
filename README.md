@@ -4,7 +4,9 @@
 
 # AWS Ops Manager
 
-Cross-platform AWS operations desktop client — manage EC2, S3, EBS, Security Groups, Elastic IPs, Key Pairs, AMI, Network, and more from a single desktop app.
+A cross-platform desktop client for AWS operations management. Use your **AWS Access Key / Secret Key** to manage EC2, S3, EBS, Security Groups, Elastic IPs, Key Pairs, AMI, and network resources — all from one app.
+
+> **How it works:** The tool connects to AWS via your Access Key / Secret Key. No cloud account provided — you bring your own credentials. Supports `~/.aws/config` profiles and built-in AES-256-GCM encrypted credential storage.
 
 **English** | [简体中文](README.zh-CN.md)
 
@@ -14,16 +16,16 @@ Cross-platform AWS operations desktop client — manage EC2, S3, EBS, Security G
 
 ## Features
 
-- **EC2** — instance list with type hints, start/stop/reboot, 8-tab detail view, CloudWatch charts, SSM terminal & Run Command
-- **S3** — bucket browser, upload/download with progress, inline file editor, 7-tab bucket detail (policy, encryption, lifecycle, etc.)
+- **EC2** — instance list, start/stop/reboot, 8-tab detail, CloudWatch charts, SSM terminal & Run Command
+- **S3** — bucket browser, upload/download with progress, inline file editor, bucket detail (policy, encryption, lifecycle, etc.)
 - **EBS & Snapshots** — volume create/attach/detach, snapshot management
 - **Security Groups** — inbound/outbound rules with 8 presets (SSH/HTTP/HTTPS/MySQL/...)
 - **Network** — VPC, subnets, route tables, IGW, NAT gateways
 - **Elastic IPs & Key Pairs** — allocate/associate/release, create/import (.pem download)
 - **AMI** — list owned images, cross-region copy, deregister
-- **Credentials** — ~/.aws profiles + AES-256-GCM encrypted custom keys
-- **Bilingual UI** — English / 简体中文 toggle in header
-- **Cmd+K** global resource search, dark/light theme, API cache
+- **Credentials** — `~/.aws/config` profiles + AES-256-GCM encrypted custom keys
+- **Bilingual UI** — English / 简体中文
+- **Cmd+K** global search, dark/light theme, API cache
 
 ## Download
 
