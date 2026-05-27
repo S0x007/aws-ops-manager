@@ -6,7 +6,7 @@
 
 Cross-platform AWS operations desktop client — manage EC2, S3, EBS, Security Groups, Elastic IPs, Key Pairs, AMI, Network, and more from a single desktop app.
 
-**English** | [简体中文](#)
+**English** | [简体中文](README.zh-CN.md)
 
 <p align="center">
   <img src="image/img_en.png" width="600" alt="English UI" />
